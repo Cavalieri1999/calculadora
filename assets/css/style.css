@@ -69,8 +69,10 @@ form button:hover {
 }
 
 .btn {
-  width: 100%;
-  height: 50px;
+  width: 70%;
+  height: 25px;
+  border-radius: 5rem;
+  transition: 0.5s;
   font-size: 1em;
   border: none;
   background: #dfdfdf;
@@ -79,6 +81,8 @@ form button:hover {
 
 .btn:hover {
   background: #9e9e9e;
+  transform: scale(1.1);
+  
 }
 
 @media (max-width: 229px) {
